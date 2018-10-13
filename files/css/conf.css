@@ -46,13 +46,28 @@ code {
   margin-left: 5em;
 }
 
+.link a{
+    display: block;
+    padding: 1em;
+    padding-left: 4em;
+    padding-right: 4em;
+    background: #428bca;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 1em;
+    text-align: center;
+}
+.link a:hover {
+  background: #2c7bbf;
+}
 
 body {
   background: white;
   padding: 65px;
   padding-top: 50px;
   min-width:600px;
-  width: 80%;
+  width: 85%;
   line-height: 20pt;
   max-width: 750px;
   margin-left: auto;
