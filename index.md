@@ -1,7 +1,7 @@
 ---
 layout: conf
 color: "#00478E"
-logo: NY Database Day 2019
+logo: NY Database Day 2018
 ---
 
 New York Database Day is a workshop targeting the database researchers and research-oriented practitioners in the New York area. New York has an incredibly strong database presence, and it is prime time for folks to get together. The [Database Group at Columbia University](https://cudbg.github.io) will host the inaugural NYDBDay on November 10th at Columbia University. The purpose is for researchers in the area to learn about each others’ research, have discussions on important database directions, and look for ways to grow and foster the research+industrial community.
