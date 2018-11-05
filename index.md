@@ -35,10 +35,6 @@ h2 {
 * **4:00-6:00**: Poster session, Snacks
 
 
-## Logistics
-
-* Location
-
 <a name="research"></a>
 ## Short Research Talks
 
