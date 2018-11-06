@@ -26,13 +26,18 @@ h2 {
 * **10:00-12:00**: [Short research talks](#research) (10m+5m Qs)
 * **12:00-1:30**: Lunch
 * **1:30-2:15** [Lightning talks](#industry) (10m+5m Qs)
-* **2:15-3:45**: [Panel Discussions](#panel)
+* **2:15-3:45**: [Panel Discussion](#panel): Human-in-the-Loop Data Analysis
+  * Moderator: Julia Stoyanovich
+  * Panel: TBA
+* **4:00-6:00**: Poster session, Snacks
+
+<!--
   * Data Integration
   * Specialized systems designs for interfaces and applications
   * DB and society (human in the loop, crowdsourcing, ethics)
   * DB and ML (lifecycle upstream from ML ~ DB for ML, ML to help solve DB problems)
   * Suggestions?
-* **4:00-6:00**: Poster session, Snacks
+-->
 
 
 <a name="research"></a>
