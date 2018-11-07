@@ -28,7 +28,10 @@ h2 {
 * **1:30-2:15** [Lightning talks](#industry) (10m+5m Qs)
 * **2:15-3:15**: [Panel Discussion](#panel): Human-in-the-Loop Data Analysis
   * Moderator: Julia Stoyanovich
-  * Panel: TBA
+  * Panel: 
+    * Adam Marcus
+    * Amelie Marian
+    * Eugene Wu
 * **3:30-5:00**: Poster session, Snacks
 
 <!--
@@ -43,7 +46,7 @@ h2 {
 <a name="research"></a>
 ## Short Research Talks
 
-Talks are 10 min + 5 minutes for questions.
+Talks are 10 min + 5 minutes for questions.  Eugene will chair.
 
 [Wendy Hui Wang](https://www.cs.stevens.edu/~hwang4/) (SIT)
 * Abstract: Crowdsourcing has raised several security concerns. One of the concerns is how to assign sensitive tasks in the crowdsourcing market, especially when there are colluding participants in crowdsourcing. In this presentation, I will talk about our work on sensitive task assignments in crowdsourcing markets with colluding workers. 
@@ -74,7 +77,7 @@ Talks are 10 min + 5 minutes for questions.
 <a name="industry"></a>
 ## Industry Lightning Talks 
 
-Talks are 10 min + 5 minutes for questions.
+Talks are 10 min + 5 minutes for questions.  Eugene will chair.
 
 
 [Evan Jones](https://www.evanjones.ca/) (BlueCore) 
@@ -93,7 +96,7 @@ Talks are 10 min + 5 minutes for questions.
 <a name="panel"></a>
 ## Panel Discussion
 
-TBA
+Julia will moderate a broad discussion of human in the loop data analytics.
 
 
 # Additional Information
@@ -117,3 +120,4 @@ Please register so we can order an appropriate amount of food.  Optionally submi
 * [Eugene Wu](http://www.eugenewu.net) (Columbia)
 * [Julia Stoyanovich](https://engineering.nyu.edu/faculty/julia-stoyanovich) (NYU)
 * [Divesh Srivastava](https://divesh.net/) (AT&T)
+
