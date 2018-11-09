@@ -20,6 +20,11 @@ h2 {
 }
 </style>
 
+
+### Sponsors
+
+We want to thank [Google](http://www.google.com)  and [The Center for Data, Media and Society](https://datascience.columbia.edu/new-media) at Columbia's Data Science Institute for generously sponsoring the workshop.
+
 ## Agenda
 
 * **9:45-10:00**: Welcome and Intro
