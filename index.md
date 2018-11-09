@@ -9,6 +9,8 @@ New York Database Day is a workshop targeting the database researchers and resea
 * Date: Saturday 11/10 9:45AM - 6PM
 * Location: Columbia Computer Science Dept, Mudd 451, [500 W 120th St](https://goo.gl/maps/3j1L69NpGZS2)
 
+<div style='text-align: center'><a href="files/images/map.png"><img src="files/images/map.png" style="width:400px"/></a></div>
+
 <!-- As part of the agenda below, we have two blocks of times for presentations. Before lunch, academic researchers will share an overview of their research directions. After lunch, friends in industry will give 5-minute lightning talks about their work. We invite participants to submit short 1-2 paragraph abstracts for research talks, lightning talks, or posters.-->
 
 <style>
@@ -37,7 +39,7 @@ We want to thank [Google](http://www.google.com)  and [The Center for Data, Medi
     * Adam Marcus
     * Amelie Marian
     * Eugene Wu
-* **3:30-5:00**: Poster session, Snacks
+* **3:30-5:00**: [Poster session](#posters), Snacks
 
 <!--
   * Data Integration
@@ -89,9 +91,6 @@ Talks are 10 min + 5 minutes for questions.  Eugene will chair.
 * Data at Bluecore
 * A walk through of what Bluecore is and what data products we use. I'll briefly talk about our data problems we have run into, which mostly relate to "manageability" and connecting data between different systems.
 
-[Adam Marcus](http://www.marcua.net) (B12)
-* Abstract TBA
-
 [Dmitri V. Kalashnikov](https://www.ics.uci.edu/~dvk/)  (ATT Labs)
 * Many corporations often have a large corpus of databases created for different purposes. A data analyst, given a task at hand, needs to find the right dataset(s) from this corpus to use for her task. This often turns into a challenging exercise due to several reasons. One such reason is that technical metadata, such as table and column names, are often abbreviated, e.g. “cust_acct” instead of “customer_account” for a column name. At the same time, column “cust_acct” might not have any business metadata, i.e., human-generated column descriptions, associated with it. Hence, the analyst searching for “customer_account” might not find “cust_acct” column due to the keyword mismatch. 
 * In our Automated Keyword Generation (AKG) project at AT&T we have developed a machine learning approach that learns “tag expansions” from a small corpus of business metadata. The approach is based on supervised learning from noisy data, as column descriptions can have a tangible amount of noise. When a tag has multiple meanings, the approach is able to leverage context to better choose the most likely meaning. The approach has been deployed at AT&T as part of a larger system that allows the user to navigate and search the metadata for a very large corpus of databases.
@@ -103,6 +102,33 @@ Talks are 10 min + 5 minutes for questions.  Eugene will chair.
 
 Julia will moderate a broad discussion of human in the loop data analytics.
 
+<a name="posters"></a>
+## Posters
+
+Below is a list of registered posters.  If you did not register a poster, you are still welcome to bring one to present.  We will provide easels, pins, and posterboard.
+
+Ke Yang
+* Algorithmic decisions often result in scoring and ranking individuals to determine credit worthiness, qualifications for college admissions and employment, and compatibility as dating partners.  While automatic and seemingly objective, ranking algorithms can discriminate against individuals and protected groups, and exhibit low diversity. Furthermore, ranked results are often unstable --- small changes in the input data or in the ranking methodology may lead to drastic changes in the output, making the result uninformative and easy to manipulate.  Similar concerns apply in cases where items other than individuals are ranked, including colleges, academic departments, or products.
+
+Fotis Psallidas
+* Data lineage describes the relationship between individual input and output data items of a workflow and is an integral ingredient for both traditional (e.g., debugging or auditing) and emergent (e.g., explanations or cleaning) applications.  The core, long-standing problem that lineage systems need to address is to quickly capture lineage across a workflow in order to speed up future queries over lineage.  Current lineage systems, however, either incur high lineage capture overheads, high lineage query processing costs, or both. In response, developers resort to manual implementations of applications that, in principal, can be expressed and optimized in lineage terms. In this poster, we describe Smoke, an in-memory database engine that provides both fast lineage capture and lineage query processing.  To do so, Smoke tightly integrates the lineage capture logic into physical database operators;  stores lineage in efficient lineage representations; and employs optimizations if future lineage queries are known up-front. Our experiments on microbenchmarks and realistic workloads show that Smoke reduces the lineage capture overhead and lineage query costs by multiple orders of magnitude as compared to state-of-the-art alternatives. On real-world applications, we show that Smoke meets the latency requirements of interactive visualizations (e.g., <150ms) and outperforms hand-written implementations of data profiling primitives.
+
+Amir Pouya Aghasadeghi
+* In recent years there has been significant interest in evolutionary analysis of large-scale networks.   Researchers study network evolution rate and mechanisms, the impact of specific events on  evolution, and spatial and spatio-temporal patterns.  To support data scientists who are studying network evolution, there is a need to develop scalable and generalizable systems.  Tangible systems progress in turn depends on the availability of standardized datasets on which performance can be tested.  In this work, we make progress towards a data generator for evolving property graphs, which represent evolution of graph topology, and of vertex and edge attributes.  We propose an attribute-based model of preferential attachment, and instantiate this model on a co-authorship network derived from DBLP, with attributes representing publication venues of the authors.  We show that this attribute-based model predicts which edges are created more accurately than a structure-only model. Finally, we demonstrate that synthetic graphs are indeed useful for evaluating performance of evolving graph query primitives.
+
+Valia Kalokyri
+* Personal information is typically fragmented across multiple, heterogeneous, distributed sources and saved as small, heterogeneous data objects, or traces. The DigitalSelf project at Rutgers University focuses on developing tools and techniques to manage (organize, search, summarize, make inferences on and personalize) such heterogeneous collections of personal digital traces. We propose to demonstrate YourDigitalSelf, a mobile phone-based personal information organization application developed as part of the DigitalSelf project. The demonstration will use a sample user data set to show how several disparate data traces can be integrated and combined to create personal narratives, or coherent episodes, of the user’s activities. Attendees will be given the option to install YourDigitalSelf on their own devices to interact with their own data.
+
+Yiru Chen
+* There is excellent software and hardware infrastructure for every part of neural network development except for understanding what the model has learned. Deep Neural Inspection (DNI) is an emerging technique that visually or statistically measures the relationship between hidden unit behaviors (e.g., activations, activation gradients) and data point annotations (e.g., annotated pixels, part of speech tags). However, each analysis requires hundreds or thousands of lines of analysis code to extract hidden unit behaviors, formulate hypotheses to test, and ensure that the analysis completes quickly. DeepBase is a general purpose DNI system that provides a high-level programming and query interface to express DNI analyses. This paper describes the current system and illustrates how it can simplify the workflow for inspecting models in two domains: an agent's game-playing policy model and a facial recognition model.
+
+Haoyue Ping
+* To facilitate collaboration over sensitive data, we present DataSynthesizer, a tool that takes a sensitive dataset as input and generates a structurally and statistically similar synthetic dataset with strong privacy guarantees. The data owners need not release their data, while potential collaborators can begin developing models and methods with some con dence that their results will work similarly on the real dataset. The distinguishing feature of DataSynthesizer is its usability — the data owner does not have to specify any parameters to start generating and sharing data safely and e ectively. DataSynthesizer consists of three high-level modules — DataDescriber, DataGenerator and ModelInspector. The rst, DataDescriber, investigates the data types, correlations and distributions of the attributes in the private dataset, and produces a data summary, adding noise to the distributions to preserve privacy. DataGenerator samples from the summary computed by DataDescriber and outputs synthetic data. ModelInspector shows an intuitive description of the data summary that was computed by DataDescriber, allowing the data owner to evaluate the accuracy of the summarization process and adjust any parameters, if desired.
+
+Bo Zhang
+* We consider the SQL Selection-GroupBy-Aggregation (SGA) query evaluation on an untrusted MapReduce system in which mappers and reducers may return incorrect results. We design AssureMR, a system that supports efficient verification of result correctness for both intermediate and final results of SGA queries. AssureMR includes the design of Pedersen Merkle R-tree (PMR-tree), a new authenticated data structure (ADS). To enable efficient verification, AssureMR includes a distributed ADS construction mechanism that allows mappers/reducers to construct PMR-trees in parallel without a centralized party.
+* AssureMR provides the following verification functionality: (1) correctness verification of PMR-trees by replication; (2) correctness verification of intermediate (final, resp.) query results by constructing local (global, resp.) PMR-trees and verification objects. Our experimental results demonstrate the efficiency and effectiveness of AssureMR."
+* We designed a crowdsourcing platform that uses human-in-the-loop optimization to understand the behavior of the workers and model the preference of a worker such that it can be used for a variety of different applications like task recommendation for workers or workforce curation for requesters (optimizing latency, quality and etc.).   
 
 # Additional Information
 
