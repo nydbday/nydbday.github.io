@@ -128,6 +128,8 @@ Haoyue Ping
 Bo Zhang
 * We consider the SQL Selection-GroupBy-Aggregation (SGA) query evaluation on an untrusted MapReduce system in which mappers and reducers may return incorrect results. We design AssureMR, a system that supports efficient verification of result correctness for both intermediate and final results of SGA queries. AssureMR includes the design of Pedersen Merkle R-tree (PMR-tree), a new authenticated data structure (ADS). To enable efficient verification, AssureMR includes a distributed ADS construction mechanism that allows mappers/reducers to construct PMR-trees in parallel without a centralized party.
 * AssureMR provides the following verification functionality: (1) correctness verification of PMR-trees by replication; (2) correctness verification of intermediate (final, resp.) query results by constructing local (global, resp.) PMR-trees and verification objects. Our experimental results demonstrate the efficiency and effectiveness of AssureMR."
+
+Mohammadreza Esfandiari
 * We designed a crowdsourcing platform that uses human-in-the-loop optimization to understand the behavior of the workers and model the preference of a worker such that it can be used for a variety of different applications like task recommendation for workers or workforce curation for requesters (optimizing latency, quality and etc.).   
 
 # Additional Information
