@@ -9,7 +9,15 @@ New York Database Day is a workshop targeting the database researchers and resea
 * Date: Saturday 11/10 9:45AM - 6PM
 * Location: Columbia Computer Science Dept, Mudd 451, [500 W 120th St](https://goo.gl/maps/3j1L69NpGZS2)
 
-<div style='text-align: center'><a href="files/images/map.png"><img src="files/images/map.png" style="width:400px"/></a></div>
+
+<div style="text-align: center">
+<a href="files/images/IMG_1811.jpg"><img src="files/images/IMG_1811.jpg" style="width: 25%;"/></a> 
+<a href="files/images/IMG_1812.jpg"><img src="files/images/IMG_1812.jpg" style="width: 25%;"/></a>
+<a href="files/images/IMG_1813.jpg"><img src="files/images/IMG_1813.jpg" style="width: 25%;"/></a>
+</div>
+
+
+<!--<div style='text-align: center'><a href="files/images/map.png"><img src="files/images/map.png" style="width:400px"/></a></div>-->
 
 <!-- As part of the agenda below, we have two blocks of times for presentations. Before lunch, academic researchers will share an overview of their research directions. After lunch, friends in industry will give 5-minute lightning talks about their work. We invite participants to submit short 1-2 paragraph abstracts for research talks, lightning talks, or posters.-->
 
